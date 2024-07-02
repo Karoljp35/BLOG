@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');</style>
+<body>
+   <header id="header">
+
+    <nav id="nav-bar">
+        <a href="#feature" class="nav-link">Feature</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+    </nav>
+</header>
+
+
+    
+    <section id="feature">
+        <h2>Join the Adventure</h2>
+        <p>Sign Up Now</p>
+         <form id="email-form">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <button type="submit" id="submit-button">Submit</button>
+        </form>
+    </section>
+    
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>When you sign up, you’ll receive weekly videos and mentoring sessions. Our goal is to help you discover and explore beautiful places in Japan. Each week, you’ll get:</p>
+        <ul>
+            <li><strong>Exclusive Videos:</strong> Receive high-quality videos showcasing stunning locations in Japan. From hidden gems to famous landmarks, you'll see it all.</li>
+            <li><strong>Personal Mentoring:</strong> Get personalized advice and tips on the best ways to experience Japan. Our experts will guide you on how to make the most of your travels.</li>
+            <li><strong>Travel Inspiration:</strong> Learn about new destinations and exciting activities. We’ll provide you with itineraries, travel hacks, and insider information.</li>
+        </ul>
+        <p>Join us and embark on a journey to uncover the beauty of Japan. Sign up now and start your adventure today!</p>
+        <div class="video-wrapper">
+            <video controls width="600" height="400">
+                <source src="video/video.mp4.mp4" type="video/mp4">
+            </video>
+    </section>
+    
+    
+   <section id="pricing">
+   
+    
+    <div class="pricing-table">
+        <h3>Basic Plan</h3>
+        <p class="price">$500</p>
+        <ul>
+            <li>Access to weekly videos</li>
+            <li>Basic travel tips</li>
+            <li>Email support</li>
+        </ul>
+        <button class="select-button">Select</button>
+    </div>
+    
+    <div class="pricing-table">
+        <h3>Standard Plan</h3>
+        <p class="price">$700</p>
+        <ul>
+            <li>Access to weekly videos</li>
+            <li>Personalized travel tips</li>
+            <li>Monthly mentoring sessions</li>
+            <li>Email and chat support</li>
+        </ul>
+        <button class="select-button">Select</button>
+    </div>
+    
+    <div class="pricing-table">
+        <h3>Premium Plan</h3>
+        <p class="price">$1000</p>
+        <ul>
+            <li>Access to weekly videos</li>
+            <li>Personalized travel tips</li>
+            <li>Weekly mentoring sessions</li>
+            <li>Priority email and chat support</li>
+            <li>Exclusive travel guides</li>
+        </ul>
+        <button class="select-button">Select</button>
+    </div>
+</section>
+
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <input type="submit" id="submit" value="Submit">
+</form>
+
+    </section>
+    <footer class="footer">
+    <nav id="footer-nav">
+        <a href="#privacy" class="footer-link">Privacy</a>
+        <a href="#terms" class="footer-link">Terms</a>
+        <a href="#contact" class="footer-link">Contact</a>
+    </nav>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,362 @@
+styles.css
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+#header-img {
+    max-height: 60px;
+    max-width: 60px;
+    margin-left: 1rem;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #003f7f;
+}
+#submit-button {
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+    margin: 10px;
+}
+
+#feature, #email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+#feature h2, #how-it-works h2, #pricing h2, #contact h2 {
+    color: #0056b3;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+#feature p, #how-it-works p {
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+#how-it-works ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#how-it-works li {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+
+}
+
+.pricing-table {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin-top: 4rem;
+    width: 250px;
+
+    text-align: center;
+}
+
+
+.pricing-table .price {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%; 
+
+}
+
+.pricing-table ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.pricing-table ul li {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.select-button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: auto;
+}
+
+.select-button:hover {
+    background-color: #E64A19;
+}
+
+#contact {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    color: #666;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input[type="email"],
+.form textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    font-size: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.form textarea {
+    height: 150px;
+    resize: none;
+}
+
+#submit-button {
+    padding: 1em 2em;
+    border-radius: 25px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit-button:hover {
+    background-color: #007bff;
+}
+
+.contact-links {
+    margin-top: 1.5em;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 0 1em;
+    color: #333;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-links a:hover {
+    color: #007bff;
+}
+
+.contact-links i {
+    margin-right: 0.5em;
+}
+#submit{
+    color: #e5e9ee;
+    background-color: #007bff;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+footer.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-link {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+    }
+
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    #header-img {
+        max-height: 40px;
+        max-width: 40px;
+        margin-left: 0;
+    }
+
+    .nav-link {
+        padding: 1px;
+        font-size: 0.8rem;
+    }
+
+    #feature, #email-form {
+        padding: 1rem;
+    }
+
+    #pricing h2 {
+        padding: 0.5rem;
+    }
+
+    .pricing-table {
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .pricing-table ul li {
+        padding: 0.25rem;
+    }
+    @media only screen and (max-width: 992px) {
+    #pricing {
+        justify-content: center;
+    }
+
+    .pricing-table {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .pricing-table {
+        width: 30%;
+    }
+}
